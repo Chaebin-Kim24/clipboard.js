@@ -1,37 +1,37 @@
-# clipboard.js
+# 복붙 자바스크립트 (clipboard.js)
 
 ![Build Status](https://github.com/zenorocha/clipboard.js/workflows/build/badge.svg)
 ![Killing Flash](https://img.shields.io/badge/killing-flash-brightgreen.svg?style=flat)
 
-> Modern copy to clipboard. No Flash. Just 3kb gzipped.
+> 현대적인 클립보드에 복사하기. 플래시 없음. 압축된 3kb만 있음. 
 
 <a href="https://clipboardjs.com/"><img width="728" src="https://cloud.githubusercontent.com/assets/398893/16165747/a0f6fc46-349a-11e6-8c9b-c5fd58d9099c.png" alt="Demo"></a>
 
-## Why
+## 이유
 
-Copying text to the clipboard shouldn't be hard. It shouldn't require dozens of steps to configure or hundreds of KBs to load. But most of all, it shouldn't depend on Flash or any bloated framework.
+클립보드에 텍스트를 복사하는 것은 어렵지 않아야 한다. 여러 단계에 걸친 설정이나 수백 kB를 로드할 이유가 없다. 그리고 가장 중요한 것은, 플래시나 다른 비대한 프레임워크에 의존하지 않는 것이 좋다. 
 
-That's why clipboard.js exists.
+이것이 복붙 자바스크립트 (clipboard.js)의 존재 이유이다.
 
-## Install
+## 설치
 
-You can get it on npm.
+npm에서 다운받을 수 있다.
 
 ```
 npm install clipboard --save
 ```
 
-Or if you're not into package management, just [download a ZIP](https://github.com/zenorocha/clipboard.js/archive/master.zip) file.
+패키지 관리 프로그램에 흥미가 없으면, 그냥 [ZIP 파일 다운로드](https://github.com/zenorocha/clipboard.js/archive/master.zip)를 하면 된다.
 
-## Setup
+## 사용할 준비
 
-First, include the script located on the `dist` folder or load it from [a third-party CDN provider](https://github.com/zenorocha/clipboard.js/wiki/CDN-Providers).
+먼저, `dist` 폴더에 있는 스크립트를 include하거나, [클라우드](https://github.com/zenorocha/clipboard.js/wiki/CDN-Providers)에서 로드합니다.
 
 ```html
 <script src="dist/clipboard.min.js"></script>
 ```
 
-Now, you need to instantiate it by [passing a DOM selector](https://github.com/zenorocha/clipboard.js/blob/master/demo/constructor-selector.html#L18), [HTML element](https://github.com/zenorocha/clipboard.js/blob/master/demo/constructor-node.html#L16-L17), or [list of HTML elements](https://github.com/zenorocha/clipboard.js/blob/master/demo/constructor-nodelist.html#L18-L19).
+이제, 객체를 생성하기 위해서, you need to instantiate it by [passing a DOM selector](https://github.com/zenorocha/clipboard.js/blob/master/demo/constructor-selector.html#L18), [HTML element](https://github.com/zenorocha/clipboard.js/blob/master/demo/constructor-node.html#L16-L17), or [list of HTML elements](https://github.com/zenorocha/clipboard.js/blob/master/demo/constructor-nodelist.html#L18-L19).
 
 ```js
 new ClipboardJS('.btn');
