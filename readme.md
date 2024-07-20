@@ -154,7 +154,7 @@ new ClipboardJS('.btn', {
 });
 ```
 
-부트스트랩 형식 또는 포커스를 바꿀 수 있는 다른 라이브러리를 쓰기 위해서는, 포커스된 요소를 `container` 값으로 설정합니다. 
+부트스트랩 형식 또는 포커스를 바꿀 수 있는 다른 라이브러리를 쓰기 위해서는, 포커스된 요소를 `container` 값으로 설정한다. 
 
 ```js
 new ClipboardJS('.btn', {
@@ -162,7 +162,7 @@ new ClipboardJS('.btn', {
 });
 ```
 
-또한, 단일 페이지 앱을 만들고 있다면, DOM을 더 정밀하게 관리하고 싶을 수 있습니다. 우리가 만든 이벤트와 객체는 이렇게 정리할 수 있습니다.
+또한, 단일 페이지 앱을 만들고 있다면, DOM을 더 정밀하게 관리하고 싶을 수 있다. 우리가 만든 이벤트와 객체는 이렇게 정리할 수 있다.
 
 ```js
 var clipboard = new ClipboardJS('.btn');
@@ -171,15 +171,15 @@ clipboard.destroy();
 
 ## 브라우저 지원
 
-본 라이브러리는 [Selection](https://developer.mozilla.org/en-US/docs/Web/API/Selection)과 [execCommand](https://developer.mozilla.org/en-US/docs/Web/API/Document/execCommand) API들에 의존하고 있습니다. Selection API는 [모든 브라우저에서 지원](https://caniuse.com/#search=selection)되고, execCommand는 다음 브라우저에서 지원됩니다.
+본 라이브러리는 [Selection](https://developer.mozilla.org/en-US/docs/Web/API/Selection)과 [execCommand](https://developer.mozilla.org/en-US/docs/Web/API/Document/execCommand) API들에 의존하고 있다. Selection API는 [모든 브라우저에서 지원](https://caniuse.com/#search=selection)되고, execCommand는 다음 브라우저에서 지원된다.
 
 | <img src="https://clipboardjs.com/assets/images/chrome.png" width="48px" height="48px" alt="Chrome logo"> | <img src="https://clipboardjs.com/assets/images/edge.png" width="48px" height="48px" alt="Edge logo"> | <img src="https://clipboardjs.com/assets/images/firefox.png" width="48px" height="48px" alt="Firefox logo"> | <img src="https://clipboardjs.com/assets/images/ie.png" width="48px" height="48px" alt="Internet Explorer logo"> | <img src="https://clipboardjs.com/assets/images/opera.png" width="48px" height="48px" alt="Opera logo"> | <img src="https://clipboardjs.com/assets/images/safari.png" width="48px" height="48px" alt="Safari logo"> |
 | :-------------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------: |
 |                                                   42+ ✔                                                   |                                                 12+ ✔                                                 |                                                    41+ ✔                                                    |                                                       9+ ✔                                                       |                                                  29+ ✔                                                  |                                                   10+ ✔                                                   |
 
-좋은 소식은 오래된 브라우저를 지원해야한다면, 복붙 자바스크립트 (clipboard.js)는 상태에 특별한 변화 없이 동작을 정지합니다. 따라서 `성공` 이벤트가 발생했을 때 `복사됨!"이라는 메세지를 보여주고, `실패` 이벤트가 발생했을 때는 텍스트가 이미 선택되었으므로 `복사하려면 Ctrl+C 누르기`이라는 메세지를 보여주면 됩니다. 
+좋은 소식은 오래된 브라우저를 지원해야한다면, 복붙 자바스크립트 (clipboard.js)는 상태에 특별한 변화 없이 동작을 정지한다. 따라서 `성공` 이벤트가 발생했을 때 `복사됨!"이라는 메세지를 보여주고, `실패` 이벤트가 발생했을 때는 텍스트가 이미 선택되었으므로 `복사하려면 Ctrl+C 누르기`이라는 메세지를 보여주면 된다. 
 
-또한, 복붙 자바스크립트 (clipboard.js)가 지원되는지 지원되지 않는지를 체크하려면 `ClipboardJS.isSupported()`를 실행하면 됩니다. 지원되지 않으면 유저 인터페이스에서 복사/오려넣기 버튼을 숨길 수 있습니다. 
+또한, 복붙 자바스크립트 (clipboard.js)가 지원되는지 지원되지 않는지를 체크하려면 `ClipboardJS.isSupported()`를 실행하면 된다. 지원되지 않으면 유저 인터페이스에서 복사/오려넣기 버튼을 숨길 수 있다. 
 
 ## 보너스
 
