@@ -11,7 +11,7 @@
 
 클립보드에 텍스트를 복사하는 것은 어렵지 않아야 한다. 여러 단계에 걸친 설정이나 수백 kB를 로드할 이유가 없다. 그리고 가장 중요한 것은, 플래시나 다른 비대한 프레임워크에 의존하지 않는 것이 좋다. 
 
-이것이 복붙 자바스크립트 (clipboard.js)의 존재 이유이다.
+이것이 복붙 자바스크립트 (clipboard.js)의 존재 이유다.
 
 ## 설치
 
@@ -31,7 +31,7 @@ npm install clipboard --save
 <script src="dist/clipboard.min.js"></script>
 ```
 
-이제, 객체를 생성합니다. 생성자의 파라미터로 [DOM 셀렉터](https://github.com/zenorocha/clipboard.js/blob/master/demo/constructor-selector.html#L18), [HTML 요소](https://github.com/zenorocha/clipboard.js/blob/master/demo/constructor-node.html#L16-L17), or [HTML 요소 리스트](https://github.com/zenorocha/clipboard.js/blob/master/demo/constructor-nodelist.html#L18-L19) 중 하나를 전달합니다.
+이제, 객체를 생성한다. 생성자의 파라미터로 [DOM 셀렉터](https://github.com/zenorocha/clipboard.js/blob/master/demo/constructor-selector.html#L18), [HTML 요소](https://github.com/zenorocha/clipboard.js/blob/master/demo/constructor-node.html#L16-L17), or [HTML 요소 리스트](https://github.com/zenorocha/clipboard.js/blob/master/demo/constructor-nodelist.html#L18-L19) 중 하나를 전달한다.
 
 ```js
 new ClipboardJS('.btn');
