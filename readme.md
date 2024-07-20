@@ -185,7 +185,7 @@ clipboard.destroy();
 
 _GitHub, MDN, Gist, StackOverflow, StackExchange, npm, and even Medium._ 의 모든 코드 블록에 "클립보드에 복사하기" 버튼을 추가하는 브라우저 확장
 
-[Chrome](https://chrome.google.com/webstore/detail/codecopy/fkbfebkcoelajmhanocgppanfoojcdmg)과 [Firefox](https://addons.mozilla.org/en-US/firefox/addon/codecopy/)에 지원됨.
+[Chrome](https://chrome.google.com/webstore/detail/codecopy/fkbfebkcoelajmhanocgppanfoojcdmg)과 [Firefox](https://addons.mozilla.org/en-US/firefox/addon/codecopy/)에서 지원된다.
 
 ## 저작권
 
